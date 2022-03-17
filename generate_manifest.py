@@ -22,4 +22,4 @@ with open("pes_manifest.txt", "w") as f_manifest:
     write_packages("pes_frontend", f_manifest)
 
     # Add dockerfile image
-    f_manifest.write("Dockerfile-FROM-registry.access.redhat.com/rhel7.6:latest\n")
+    f_manifest.write("Dockerfile-FROM-registry.centos.org/centos:7:latest\n")
